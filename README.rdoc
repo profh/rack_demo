@@ -1,0 +1,3 @@
+This is the code for a simple demo of rack given in the morning section of 67-272 (S12).  Earliest versions of the code run a very simple rack app and the code evolves over time so that students see how rack can be used to create middleware and even simple web frameworks.  
+
+The demo is not yet complete in class so there will be more to come.
