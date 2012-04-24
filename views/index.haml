@@ -1,0 +1,17 @@
+!!!
+%html
+	%head
+		%title KCW App
+	%body
+		%h2 A List of All Klingon Proverbs
+		%table
+			%tr
+				%th 
+					%u Klingon Proverb
+				%th 
+					%u Human Translation
+				-proverbs.each do |proverb|
+					%tr
+						%td= proverb[1]
+						%td= proverb[0]
+		%br
